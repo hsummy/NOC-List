@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E304A08A1DD920FC0085293F /* AgentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E304A0891DD920FC0085293F /* AgentDetailViewController.m */; };
 		E3963D7F1DD4E2230038C42A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3963D7E1DD4E2230038C42A /* main.m */; };
 		E3963D821DD4E2230038C42A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3963D811DD4E2230038C42A /* AppDelegate.m */; };
-		E3963D851DD4E2230038C42A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3963D841DD4E2230038C42A /* ViewController.m */; };
 		E3963D881DD4E2230038C42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3963D861DD4E2230038C42A /* Main.storyboard */; };
 		E3963D8A1DD4E2230038C42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3963D891DD4E2230038C42A /* Assets.xcassets */; };
 		E3963D8D1DD4E2230038C42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3963D8B1DD4E2230038C42A /* LaunchScreen.storyboard */; };
+		E3963DD21DD624740038C42A /* NOCAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = E3963DD11DD624740038C42A /* NOCAgent.m */; };
+		E3963DD51DD624990038C42A /* NOCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3963DD41DD624990038C42A /* NOCTableViewController.m */; };
+		E3B366B81DD64CFB006DFD30 /* NOC.json in Resources */ = {isa = PBXBuildFile; fileRef = E3B366B71DD64CFB006DFD30 /* NOC.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E304A0881DD920FC0085293F /* AgentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentDetailViewController.h; sourceTree = "<group>"; };
+		E304A0891DD920FC0085293F /* AgentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentDetailViewController.m; sourceTree = "<group>"; };
 		E3963D7A1DD4E2230038C42A /* NOC-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NOC-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3963D7E1DD4E2230038C42A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3963D801DD4E2230038C42A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3963D811DD4E2230038C42A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E3963D831DD4E2230038C42A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E3963D841DD4E2230038C42A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E3963D871DD4E2230038C42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3963D891DD4E2230038C42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3963D8C1DD4E2230038C42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3963D8E1DD4E2230038C42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3963DD01DD624740038C42A /* NOCAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOCAgent.h; path = ../NOCAgent.h; sourceTree = "<group>"; };
+		E3963DD11DD624740038C42A /* NOCAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOCAgent.m; path = ../NOCAgent.m; sourceTree = "<group>"; };
+		E3963DD31DD624990038C42A /* NOCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOCTableViewController.h; sourceTree = "<group>"; };
+		E3963DD41DD624990038C42A /* NOCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOCTableViewController.m; sourceTree = "<group>"; };
+		E3B366B71DD64CFB006DFD30 /* NOC.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NOC.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,17 @@
 			children = (
 				E3963D801DD4E2230038C42A /* AppDelegate.h */,
 				E3963D811DD4E2230038C42A /* AppDelegate.m */,
-				E3963D831DD4E2230038C42A /* ViewController.h */,
-				E3963D841DD4E2230038C42A /* ViewController.m */,
 				E3963D861DD4E2230038C42A /* Main.storyboard */,
+				E3963DD31DD624990038C42A /* NOCTableViewController.h */,
+				E3963DD41DD624990038C42A /* NOCTableViewController.m */,
+				E3963DD01DD624740038C42A /* NOCAgent.h */,
+				E3963DD11DD624740038C42A /* NOCAgent.m */,
+				E304A0881DD920FC0085293F /* AgentDetailViewController.h */,
+				E304A0891DD920FC0085293F /* AgentDetailViewController.m */,
 				E3963D891DD4E2230038C42A /* Assets.xcassets */,
 				E3963D8B1DD4E2230038C42A /* LaunchScreen.storyboard */,
 				E3963D8E1DD4E2230038C42A /* Info.plist */,
+				E3B366B71DD64CFB006DFD30 /* NOC.json */,
 				E3963D7D1DD4E2230038C42A /* Supporting Files */,
 			);
 			path = "NOC-List";
@@ -137,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B366B81DD64CFB006DFD30 /* NOC.json in Resources */,
 				E3963D8D1DD4E2230038C42A /* LaunchScreen.storyboard in Resources */,
 				E3963D8A1DD4E2230038C42A /* Assets.xcassets in Resources */,
 				E3963D881DD4E2230038C42A /* Main.storyboard in Resources */,
@@ -150,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3963D851DD4E2230038C42A /* ViewController.m in Sources */,
+				E3963DD21DD624740038C42A /* NOCAgent.m in Sources */,
 				E3963D821DD4E2230038C42A /* AppDelegate.m in Sources */,
+				E3963DD51DD624990038C42A /* NOCTableViewController.m in Sources */,
+				E304A08A1DD920FC0085293F /* AgentDetailViewController.m in Sources */,
 				E3963D7F1DD4E2230038C42A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +323,7 @@
 				E3963D931DD4E2230038C42A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
